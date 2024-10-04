@@ -1,4 +1,8 @@
+const cors = require('cors');
+
 const app = require('express')();
+
+app.use(cors());
 
 app.get('/', (req, res) => {
     res.json({ message: 'Hello Docker v0.2!' });
