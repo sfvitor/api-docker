@@ -18,7 +18,7 @@ const app = require('express')();
 app.use(cors());
 
 app.get('/', (req, res) => {
-    res.json({ message: 'Hello Docker v0.2!' });
+    res.json({ message: 'Hello Docker v0.3!' });
 });
 
 app.get('/admin', async (req, res) => {
