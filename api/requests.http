@@ -1,0 +1,8 @@
+### GET HELLO WORLD
+GET {{baseUrl}}/
+
+### GET ADMIN
+GET {{baseUrl}}/admin
+
+### POST ADMIN
+POST {{baseUrl}}/admin/new_admin

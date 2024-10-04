@@ -1,0 +1,12 @@
+{
+    "rest-client.environmentVariables": {
+        "$shared": {},
+        "dev": {
+            "baseUrl": "http://localhost:8888"
+        },
+        "prod": {
+            "baseUrl": "http://100.26.164.56:5000"
+        }
+    },
+    "rest-client.previewOption": "full"
+}
