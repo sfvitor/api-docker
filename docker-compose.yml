@@ -3,7 +3,7 @@ services:
   api:
     build: ./api
     volumes:
-      - db-data:/db
+      - db-data:/app
     ports:
       - "5000:3132"
 
