@@ -18,7 +18,7 @@ const app = require('express')();
 app.use(cors());
 
 app.get('/', (req, res) => {
-    res.json({ message: 'New title for v0.4!' });
+    res.json({ message: 'This is version v0.5!' });
 });
 
 app.get('/admin', async (req, res) => {
