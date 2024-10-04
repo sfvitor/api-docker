@@ -1,11 +1,14 @@
 version: '3'
 services:
+  api:
+    build: ./api
+    volumes:
+      - ./api:/app
+    ports:
+      - "5000:3132"
+
   web:
     build: ./web
     ports:
       - "5001:5173"
   
-  api:
-    build: ./api
-    ports:
-      - "5000:3132"
