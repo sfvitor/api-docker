@@ -3,7 +3,7 @@ const { Sequelize, Model, DataTypes } = require('sequelize');
 
 const sequelize = new Sequelize({
     dialect: 'sqlite',
-    storage: '../db/database.sqlite',
+    storage: './database.sqlite', // ../db/database.sqlite
 });
 
 class Admin extends Model {}

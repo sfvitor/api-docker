@@ -3,15 +3,12 @@ services:
   api:
     build: ./api
     volumes:
-      - db-data:/db
       - ./api:/app
     ports:
       - "5000:3132"
 
   web:
     build: ./web
-    volumes:
-      - ./web:/app
     ports:
       - "5001:5173"
 
